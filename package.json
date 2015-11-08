@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "German dictionary in terminal.",
   "main": "index.js",
+  "bin": {
+    "dict-de": "./bin/dict"
+  },
   "scripts": {
     "test": "mocha --reporter spec"
   },
