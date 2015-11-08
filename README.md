@@ -1,4 +1,4 @@
-# dict-de [![Circle CI](https://circleci.com/gh/Frederick-S/dict-de.svg?style=svg)](https://circleci.com/gh/Frederick-S/dict-de)
+# dict-de [![Circle CI](https://circleci.com/gh/Frederick-S/dict-de.svg?style=shield)](https://circleci.com/gh/Frederick-S/dict-de)
 German dictionary in terminal.
 
 ## Installation
