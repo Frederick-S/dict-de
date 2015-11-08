@@ -1,0 +1,27 @@
+{
+  "name": "dict-de",
+  "version": "0.0.1",
+  "description": "German dictionary in terminal.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Frederick-S/dict-de"
+  },
+  "keywords": [
+    "German"
+  ],
+  "author": "Frederick-S",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Frederick-S/dict-de/issues"
+  },
+  "dependencies": {
+    "cheerio": "~0.19.0",
+    "mocha": "~2.3.3",
+    "deferred": "~0.7.3",
+    "request": "~2.65.0"
+  }
+}
