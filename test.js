@@ -3,7 +3,7 @@ var query = require('./lib/query.js');
 var parse = require('./lib/parse.js');
 
 describe('Query word', function () {
-    it ('Query empty string', function (done) {
+    it('Query empty string', function (done) {
         query('').done(function (data) {}, function (message) {
             assert.equal('Invalid word.', message);
             
@@ -11,7 +11,7 @@ describe('Query word', function () {
         });
     });
     
-    it ('Query non empty string', function (done) {
+    it('Query non empty string', function (done) {
         query('fahren').done(function (data) {
             assert.notEqual('Request error.', data);
             
@@ -25,7 +25,7 @@ describe('Query word', function () {
 });
 
 describe('Parse data', function () {
-    it ('Parse invalid word', function (done) {
+    it('Parse invalid word', function (done) {
         query('sdf8234').done(function (data) {
             assert.notEqual('Request error.', data);
             
@@ -41,7 +41,7 @@ describe('Parse data', function () {
         });
     });
     
-    it ('Parse valid word', function (done) {
+    it('Parse valid word', function (done) {
         query('fahren').done(function (data) {
             assert.notEqual('Request error.', data);
             
