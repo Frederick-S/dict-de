@@ -23,12 +23,12 @@
     "url": "https://github.com/Frederick-S/dict-de/issues"
   },
   "dependencies": {
-    "cheerio": "~0.19.0",
+    "cheerio": "~0.22.0",
     "codecov.io": "^0.1.6",
     "colors": "^1.1.2",
     "deferred": "~0.7.3",
     "istanbul": "^0.4.0",
-    "mocha": "~2.3.3",
-    "request": "~2.65.0"
+    "mocha": "~3.4.2",
+    "request": "~2.81.0"
   }
 }
